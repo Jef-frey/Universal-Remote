@@ -4,16 +4,19 @@ The goal of this project is to build an universal remote controller for multiple
 
 # Requirements
 ## Hardware
-1xPIC16F15344<br />
-1xPICkit 3<br />
-1xIR diode<br />
-1xnMOSFET<br />
-1xCurrent limiting resistor<br />
-1xCapacitor<br />
-Switches<br />
+1x PIC16F15344<br />
+1x PICkit 3<br />
+1x IR diode<br />
+1x n-channel MOSFET<br />
+1x 10k Ohm Potentiometer<br />
+1x 470 Ohm Current limiting resistor<br />
+1x 0.1 uF Capacitor<br />
+1x Battery Holder<br />
+Switches that fit your application<br />
 
 ## Software
 MPLAB X IDE 6.20<br />
+KiCad 8.0<br />
 
 # Programming this remote for your devices
 1. find the IR code of your devices, if they are not the NEC format then the code will not work
